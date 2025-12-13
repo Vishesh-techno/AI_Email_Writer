@@ -1,0 +1,46 @@
+/* index.css - global reset + fonts + background */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Roboto+Mono:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+/* body {
+  margin: 0;
+  font-family: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+  background: linear-gradient(180deg, #f7fafc 0%, #eef2f7 50%, #ffffff 100%);
+  color: #111827;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  line-height: 1.4;
+} */
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(180deg, #ffdad2 0%, #ffd5e5 50%, #e2ca82 100%);
+  color: #111827;
+  line-height: 1.4;
+}
+
+
+
+/* nice subtle page center when container is small */
+.MuiContainer-root {
+  /* ensure vertical spacing from viewport top on small screens */
+  padding-top: 36px !important;
+  padding-bottom: 36px !important;
+}
+
+/* small helper to limit very long text from stretching layout */
+.app-max-width {
+  max-width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
