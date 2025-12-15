@@ -35,26 +35,10 @@ Used by both frontend and Chrome extension.
 
 👉 https://ai-email-writer-8hvf.onrender.com
 
-🧩 **Project Repositories**
-
-1️⃣ Chrome Extension
-Gmail Chrome Extension that injects an AI Reply button into the Gmail UI.
-
-🔗 Repository: https://github.com/Vishesh-techno/ai-email-writer-chrome-ext
-
-2️⃣ Frontend (Web UI)
-Web-based interface to generate AI email replies.
-
-🔗 Repository: https://github.com/Vishesh-techno/ai-email-writer-frontend
-
-3️⃣ Backend (Spring Boot API)
-Cloud-hosted backend responsible for generating AI replies.
-
-🔗 Repository: https://github.com/<your-username>/ai-email-writer-backend
-
 🚀 **How to Use**
 
 ✅ **Option 1: Chrome Extension (Recommended)**
+
 Open the Chrome Extension repository
 
 Download or clone it
@@ -92,8 +76,6 @@ Java 21
 Spring Boot
 
 REST APIs
-
-Docker
 
 Chrome Extensions (Manifest v3)
 
