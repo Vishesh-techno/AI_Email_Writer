@@ -1,41 +1,112 @@
-**📧 AI Email Writer**
+# AI Email Writer 🚀
 
-AI Email Writer is a web-based application that generates high-quality email replies using Artificial Intelligence. Users can paste email content, select a tone (professional, friendly, formal, etc.), and instantly receive a well-structured, context-aware response.
+An AI-powered Email Reply Generator that works directly inside **Gmail** using a **Chrome Extension**, with a **cloud-hosted backend** and a **web-based frontend**.
 
-**🚀 Features**
+This repository acts as a **central hub** for all parts of the project.
 
-Generate AI-powered email replies
 
-Multiple tone selection (Professional, Friendly, Formal)
+## 🔥 Features
+- One-click **AI Reply** button inside Gmail compose window
+- Professional email replies generated using AI
+- Secure backend (API keys are not exposed)
+- Web UI for demo and public usage
+- Fully deployed (Frontend + Backend + Extension)
 
-Clean and responsive UI
+## 🧩 System Architecture
 
-Fast and easy-to-use interface
+Gmail (Chrome Extension)
+↓
+Spring Boot Backend (Render)
+↓
+AI Model API
 
-REST API–based backend integration
+Netlify (Frontend)
 
-**🛠️ Tech Stack**
+## 🌐 Live Links
 
-Frontend: React.js, Material UI, vite
+### 🔹 Frontend (Web UI)
+Use this if you don’t want to install the extension.
 
-Backend: Spring Boot (REST API)
+👉 https://aiemailreplygenerator.netlify.app/
 
-AI Integration: Gemini
+### 🔹 Backend (API Base URL)
+Used by both frontend and Chrome extension.
 
-Tools: Maven, Postman
+👉 https://ai-email-writer-8hvf.onrender.com
 
-**🎯 Use Cases**
+🧩 **Project Repositories**
+1️⃣ Chrome Extension
+Gmail Chrome Extension that injects an AI Reply button into the Gmail UI.
 
-Professionals writing formal emails
+🔗 Repository: https://github.com/Vishesh-techno/ai-email-writer-chrome-ext
 
-Students drafting academic emails
+2️⃣ Frontend (Web UI)
+Web-based interface to generate AI email replies.
 
-Customer support and HR communication
+🔗 Repository: https://github.com/Vishesh-techno/ai-email-writer-frontend
 
-**📌 Future Enhancements**
+3️⃣ Backend (Spring Boot API)
+Cloud-hosted backend responsible for generating AI replies.
 
-Email templates
+🔗 Repository: https://github.com/<your-username>/ai-email-writer-backend
 
-Direct email sending integration
+🚀 **How to Use**
+✅ **Option 1: Chrome Extension (Recommended)**
+Open the Chrome Extension repository
 
-Creating Extension for Gmail
+Download or clone it
+
+Go to chrome://extensions
+
+Enable Developer Mode
+
+Click Load unpacked
+
+Select the extension folder
+
+Open Gmail → Compose → Click AI Reply
+
+✅ **Option 2: Web UI**
+Open the frontend URL
+
+Paste your email content
+
+Click Generate
+
+Copy and use the AI reply anywhere
+
+**🔐 Security**
+API keys are stored securely on the backend using environment variables
+
+No sensitive information is exposed in the frontend or extension
+
+**🛠 Tech Stack**
+Java 21
+
+Spring Boot
+
+REST APIs
+
+Docker
+
+Chrome Extensions (Manifest v3)
+
+Netlify (Frontend Hosting)
+
+Render (Backend Hosting)
+
+👤 **Author**
+Vishesh Soni
+Electronics & Communication Engineering Student
+Interested in Java, Spring Boot, Cloud & Full Stack Development
+
+📈 **Future Enhancements**
+Chrome Web Store release
+
+Multiple reply tones
+
+User authentication
+
+Rate limiting
+
+UI improvements
