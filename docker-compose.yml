@@ -1,0 +1,14 @@
+services: 
+
+  frontend: 
+     build: email-writer-frontend
+     ports: 
+       -"3000:3000"
+
+  backend:
+     build: email-writer-sb
+     ports: 
+        -"8080:8080"
+     enviorment: 
+        GEMINI_API_URL: https://generativelanguage.googleapis.com/v1beta/models/gemini-pro:generateContent
+        GEMINI_API_KEY: ${GEMINI_API_KEY}
